@@ -69,3 +69,6 @@ iol_testing/
 iol/
 Pipfile
 Pipfile.lock
+
+# enviroment variables
+.env
