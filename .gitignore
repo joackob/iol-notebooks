@@ -64,3 +64,8 @@ target/
 
 # iol client
 iol_testing/
+
+# iol dependencies
+iol/
+Pipfile
+Pipfile.lock
