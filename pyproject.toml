@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "iol-notebooks"
+version = "0.1.0"
+description = "Notebooks for operate with iol-client"
+authors = ["Joaquin Blanco"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "iol_notebooks"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+iol-client = {git = "https://github.com/joackob/iol_client.git"}
+matplotlib = "^3.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
